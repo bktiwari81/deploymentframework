@@ -38,19 +38,17 @@ We are planning to entend this framework for the following use-cases
 	4. Create a private custom image 
 	5. Add permissions 
 	
-2. Create a Lambda function
-        1. Go to AWS Lambda service and create Lambda function
+2. Create a Lambda function           
+	1. Go to AWS Lambda service and create Lambda function
 	2. Select runtime as Python 3.8
-	3. Add handler name as lambda_function.msDeployHandler
-	4. Copy content from msDeployHandler.py and paste it into your Lambda function
-	5. Create two environment variable for git configuration and set your git repo credentials
-		 gitusername
-		 gitpassword
+	3. Add handler name as lambda_function.msDeployHandler 
+	4. Copy content from msDeployHandler.py and paste it into your Lambda function 
+	5. Create two environment variable `gitusername` and `gitpassword` for git configuration and set your git repo credentials 
 
-3. Add API Gateway as trigger 
-        1. Go to AWS Lambda service
+2. Add API Gateway to expose Lambda as REST API           
+	1. Go to AWS Lambda service
 	2. Click onto you Lambda function
-	3. Create API gateway trigger as REST - This will give API gateway endpooint that you can use to trigger your lambda function
+	3. Create API gateway trigger as REST - This will give API gateway endpooint that you can use to trigger your lambda function 
 
 **Q: What all AWS services is this framework using?**
 
