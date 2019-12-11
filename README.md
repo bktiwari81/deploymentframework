@@ -1,6 +1,8 @@
 # deploymentframework
 This repo has a actual Python code developed and exposed as Lamda function.
 
+
+# FAQ
 Q: What does this framework do?
 
 This framework intents to provide a feature that will expose a microservice on serverless or dedicated infrastructure with just a click of a button. 
