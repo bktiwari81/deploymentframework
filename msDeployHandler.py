@@ -94,5 +94,5 @@ def msDeployHandler(event, context):
     print (instance_id) 
     return {
         "statusCode": 200,
-        "body": json.dumps('your Api configuration is complete, please check your email for deploymeent status and information!!')
+        "body": json.dumps('your Api configuration is complete, please check your email for deployment status and information!!')
     }
